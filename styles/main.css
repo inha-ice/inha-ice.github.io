@@ -208,6 +208,62 @@ body {
   height: 24px;
 }
 
+.bookmark-container {
+  background-color: #ebf2fe;
+}
+
+.bookmark-list__title {
+  max-width: 1024px;
+  padding-top: 1rem;
+  margin: 0 auto;
+}
+
+@media (max-width: 1023px) {
+  .bookmark-list__title {
+    margin: 0 2rem;
+  }
+}
+
+.bookmark-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.bookmark {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem;
+  text-align: center;
+}
+
+.bookmark__icon {
+  box-sizing: content-box;
+  width: 6rem;
+  height: 6rem;
+  padding: 2rem;
+  border-radius: 50%;
+}
+
+.bookmark__icon--inha {
+  background-color: #0066b3;
+}
+
+.bookmark__icon--facebook {
+  background-color: #3b5998;
+}
+
+.bookmark__icon--kakaotalk {
+  background-color: #ffd400;
+}
+
+.bookmark__icon--instagram {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+}
+
 .grid {
   display: grid;
   grid-auto-rows: min-content;
