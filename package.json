@@ -1,0 +1,37 @@
+{
+  "name": "inha-ice",
+  "version": "1.0.0",
+  "description": "inha-ice",
+  "main": "index.js",
+  "devDependencies": {
+    "autoprefixer": "^9.7.3",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.19.1",
+    "jsdom": "^15.2.1",
+    "parcel-bundler": "^1.12.4",
+    "push-dir": "^0.4.1",
+    "stylelint": "^12.0.1",
+    "stylelint-config-recess-order": "^2.0.3",
+    "stylelint-config-standard": "^19.0.0"
+  },
+  "scripts": {
+    "build": "node build.js",
+    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup",
+    "lint": "eslint --ignore-path .gitignore --ignore-pattern old . & stylelint styles/*.css",
+    "lint:fix": "eslint --fix --ignore-path .gitignore --ignore-pattern old . & stylelint --fix styles/*.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inha-ice/inha-ice.github.io.git"
+  },
+  "contributors": [
+    "Seungjae Park <astro.psj@gmail.com>"
+  ],
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/inha-ice/inha-ice.github.io/issues"
+  },
+  "homepage": "https://github.com/inha-ice/inha-ice.github.io#readme",
+  "private": true
+}
