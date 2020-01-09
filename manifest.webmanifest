@@ -1,0 +1,22 @@
+{
+    "name": "Inha Univ. ICE Student Council",
+    "short_name": "ICE SC",
+    "description": "20th Inha Univ. ICE Student Council Homepage",
+    "icons": [
+        {
+            "src": "./images/icon192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "./images/icon512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "start_url": "/?utm_source=homescreen",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#0f71de",
+    "lang": "ko"
+}
