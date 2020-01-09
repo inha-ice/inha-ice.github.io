@@ -20,10 +20,10 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
 
   <!-- Icon -->
-  <!-- <link rel="icon" sizes="any" href="./images/logo.svg" type="image/svg+xml">
-    <link rel="icon" sizes="192x192" href="./images/icon192.png" type="image/png">
-    <link rel="apple-touch-icon" href="./images/icon180.png">
-    <meta name="msapplication-square310x310logo" content="./images/icon310.png"> -->
+  <link rel="icon" sizes="any" href="./images/logo.svg" type="image/svg+xml">
+  <link rel="icon" sizes="192x192" href="./images/icon192.png" type="image/png">
+  <!-- <link rel="apple-touch-icon" href="./images/icon180.png">
+  <meta name="msapplication-square310x310logo" content="./images/icon310.png"> -->
 
   <!-- Open Graph Protocol -->
   <meta property="og:type" content="website">
@@ -49,12 +49,10 @@
 <body>
   <nav class="nav">
     <header class="nav__section nav__section--left">
-      <h1 class="nav__title">
-        <img src="" alt="">■
-        인하대학교 정보통신공학과 학생회
-      </h1>
+      <img class="nav__icon" src="./images/logo.svg" alt="Student Counsil Symbol">
+      <h1 class="nav__title">인하대학교 정보통신공학과 학생회</h1>
     </header>
-    <ul class="nav__button-list">
+    <ul class="nav__section nav__button-list">
       <li class="nav__button-item"><a href="">블로그</a></li>
       <li class="nav__button-item"><a href="">행사일정</a></li>
       <li class="nav__button-item"><a href="">운영장부</a></li>
@@ -88,23 +86,24 @@
         <h1 class="title bookmark-list__title">바로가기</h1>
         <ul class="bookmark-list">
           <li class="bookmark">
-            <a href="https://ice.inha.ac.kr/">
-              <img class="bookmark__icon bookmark__icon--inha" src="./images/ic_inha.svg" alt="Inha Univ.">
+            <a class="bookmark__icon bookmark__icon--inha" href="https://ice.inha.ac.kr/">
+              <img src="./images/ic_inha.svg" alt="Inha Univ.">
             </a>
           </li>
           <li class="bookmark">
-            <a href="https://www.facebook.com/inhaicesa/">
-              <img class="bookmark__icon bookmark__icon--facebook" src="./images/ic_facebook.svg" alt="Facebook">
+            <a class="bookmark__icon bookmark__icon--facebook" href="https://www.facebook.com/inhaicesa/">
+              <img src="./images/ic_facebook.svg" alt="Facebook">
             </a>
           </li>
           <li class="bookmark">
-            <a href="https://pf.kakao.com/_zIyxld">
-              <img class="bookmark__icon bookmark__icon--kakaotalk" src="./images/ic_kakaotalk.svg"
-                alt="Kakaotalk Channel">
+            <a class="bookmark__icon bookmark__icon--kakaotalk" href="https://pf.kakao.com/_zIyxld">
+              <img src="./images/ic_kakaotalk.svg" alt="Kakaotalk Channel">
             </a>
           </li>
           <li class="bookmark">
-            <img class="bookmark__icon bookmark__icon--instagram" src="./images/ic_instagram.svg" alt="Instagram">
+            <a class="bookmark__icon bookmark__icon--instagram">
+              <img src="./images/ic_instagram.svg" alt="Instagram">
+            </a>
           </li>
         </ul>
       </article>

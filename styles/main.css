@@ -43,6 +43,9 @@ body {
 }
 
 .nav__section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   padding: 1rem 2rem;
 }
 
@@ -58,10 +61,28 @@ body {
   right: 0;
 }
 
+.nav__icon {
+  width: 36px;
+  height: 36px;
+  margin-right: 0.5rem;
+  filter: brightness(0) invert(1);
+  transition: filter 0.5s;
+}
+
+.active .nav__icon {
+  filter: none;
+}
+
 .nav__title {
   margin: 0;
   font-size: 1.5rem;
   font-weight: bold;
+}
+
+@media (max-width: 1023px) {
+  .nav__title {
+    display: none;
+  }
 }
 
 .nav__button-list {
@@ -322,6 +343,12 @@ body {
 .footer__container {
   max-width: 1024px;
   margin: 2rem auto;
+}
+
+@media (max-width: 1023px) {
+  .footer__container {
+    margin: 2rem;
+  }
 }
 
 .footer__title {
