@@ -8,7 +8,7 @@ const scrollTo = (y) => {
       left: 0,
       behavior: 'smooth',
     });
-  }, 1);
+  });
 };
 
 // nav color
