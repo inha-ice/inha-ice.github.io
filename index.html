@@ -57,19 +57,29 @@
 
 <body>
   <nav class="nav">
-    <header class="nav__section nav__section--left">
+    <div class="nav__section nav__section--left nav__padding">
       <img class="nav__icon" src="./images/logo.svg" alt="Student Association Symbol">
-      <h1 class="nav__title">인하대학교 정보통신공학과 학생회</h1>
-    </header>
-    <ul class="nav__section nav__button-list">
-      <li class="nav__button-item"><a href="">블로그</a></li>
-      <li class="nav__button-item"><a href="">행사일정</a></li>
-      <li class="nav__button-item"><a href="">운영장부</a></li>
-      <li class="nav__button-item"><a href="">정보마당</a></li>
-    </ul>
-    <a class="nav__section nav__section--right nav__button-login">
-      LOGIN
-    </a>
+      <h1 class="nav__title no-tablet">인하대학교 정보통신공학과 학생회</h1>
+    </div>
+    <div class="nav__section nav__section--center nav__padding">
+      <ul class="horizontal-list">
+        <li class="horizontal-item nav__horizontal-item">
+          <a class="link nav__link" href="">블로그</a>
+        </li>
+        <li class="horizontal-item nav__horizontal-item">
+          <a class="link nav__link" href="">행사일정</a>
+        </li>
+        <li class="horizontal-item nav__horizontal-item">
+          <a class="link nav__link" href="">운영장부</a>
+        </li>
+        <li class="horizontal-item nav__horizontal-item">
+          <a class="link nav__link" href="">정보마당</a>
+        </li>
+      </ul>
+    </div>
+    <div class="nav__section nav__section--right">
+      <a class="nav__button nav__padding">LOGIN</a>
+    </div>
   </nav>
   <main role="main">
     <section class="wallpaper">
@@ -78,9 +88,6 @@
             class="hero__title--glow">SICE</span></h1>
         <h2 class="hero__subtitle">인하대학교 정보통신공학과</h2>
       </header>
-      <!-- <svg class="wallpaper__clip" viewbox="0 0 100 8">
-        <path fill="white" d="M0 0 V 8 H 100 V 0 L 50 6 L 0 8"></path>
-      </svg> -->
     </section>
     <section>
       <article class="container">
@@ -91,61 +98,63 @@
           정보통신공학과 학과생들이 보다 더 윤택한 학교생활을 할 수 있도록 학과생들의 목소리에 귀 기울이며 노력하겠습니다. 앞으로 학생회가 주관하는 행사에 많은 관심과 참여 부탁드리겠습니다!
         </p>
       </article>
-      <article class="bookmark-container">
-        <h1 class="title bookmark-list__title">바로가기</h1>
-        <ul class="bookmark-list">
-          <li class="bookmark">
-            <a class="bookmark__icon bookmark__icon--inha" href="https://ice.inha.ac.kr/">
-              <img src="./images/ic_inha.svg" alt="Inha Univ.">
-            </a>
-          </li>
-          <li class="bookmark">
-            <a class="bookmark__icon bookmark__icon--facebook" href="https://www.facebook.com/inhaicesa/">
-              <img src="./images/ic_facebook.svg" alt="Facebook">
-            </a>
-          </li>
-          <li class="bookmark">
-            <a class="bookmark__icon bookmark__icon--kakaotalk" href="https://pf.kakao.com/_zIyxld">
-              <img src="./images/ic_kakaotalk.svg" alt="Kakaotalk Channel">
-            </a>
-          </li>
-          <li class="bookmark">
-            <a class="bookmark__icon bookmark__icon--instagram">
-              <img src="./images/ic_instagram.svg" alt="Instagram">
-            </a>
-          </li>
-        </ul>
+      <article class="shortcut-outline">
+        <div class="container container--dense">
+          <h1 class="title">바로가기</h1>
+          <ul class="shortcut-list">
+            <li class="shortcut">
+              <a class="shortcut__icon shortcut--inha" href="https://ice.inha.ac.kr/">
+                <img src="./images/ic_inha.svg" alt="Inha Univ.">
+              </a>
+            </li>
+            <li class="shortcut">
+              <a class="shortcut__icon shortcut--facebook" href="https://www.facebook.com/inhaicesa/">
+                <img src="./images/ic_facebook.svg" alt="Facebook">
+              </a>
+            </li>
+            <li class="shortcut">
+              <a class="shortcut__icon shortcut--kakaotalk" href="https://pf.kakao.com/_zIyxld">
+                <img src="./images/ic_kakaotalk.svg" alt="Kakaotalk Channel">
+              </a>
+            </li>
+            <li class="shortcut">
+              <a class="shortcut__icon shortcut--instagram">
+                <img src="./images/ic_instagram.svg" alt="Instagram">
+              </a>
+            </li>
+          </ul>
+        </div>
       </article>
       <article class="container">
         <h1 class="title">학생회 활동</h1>
         <div class="grid grid--triple-stage">
-          <div class="grid-item">
-            <h2 class="grid-item__title">
+          <div class="card">
+            <h2 class="card__title">
               <img class="icon" src="./images/ic_directions_bus.svg" alt="">
               OT/MT 기획
             </h2>
-            <p class="grid-item__content">asdas</p>
+            <p class="card__content">asdas</p>
           </div>
-          <div class="grid-item">
-            <h2 class="grid-item__title">
+          <div class="card">
+            <h2 class="card__title">
               <img class="icon" src="./images/ic_fastfood.svg" alt="">
               간식드리미
             </h2>
-            <p class="grid-item__content">asdas</p>
+            <p class="card__content">asdas</p>
           </div>
-          <div class="grid-item">
-            <h2 class="grid-item__title">
+          <div class="card">
+            <h2 class="card__title">
               <img class="icon" src="./images/ic_assignment.svg" alt="">
               비품관리
             </h2>
-            <p class="grid-item__content">asdas</p>
+            <p class="card__content">asdas</p>
           </div>
-          <div class="grid-item">
-            <h2 class="grid-item__title">
+          <div class="card">
+            <h2 class="card__title">
               <img class="icon" src="./images/ic_assignment.svg" alt="">
               행사기획
             </h2>
-            <p class="grid-item__content">ㅁㄴㅇㄹ</p>
+            <p class="card__content">ㅁㄴㅇㄹ</p>
           </div>
         </div>
       </article>
@@ -166,18 +175,34 @@
       </article>
     </section>
     <footer class="footer">
-      <div class="footer__container">
-        <p class="footer__content">
-          <a class="footer__link">이용약관</a>
-          | <a class="footer__link">개인정보취급방침</a>
-          | <a class="footer__link" href="https://github.com/inha-ice">만든 사람들</a class="footer__link">
-        </p>
-        <h1 class="footer__title">인하대학교 정보통신공학과 학생회</h1>
-        <p class="footer__content">
-          <a class="footer__link" href="https://place.map.kakao.com/17557585">22212 인천광역시 미추홀구 인하로 100 인하대학교 하이테크센터</a>
-          고층부 지하1층&nbsp;&nbsp;|&nbsp;&nbsp;Tel: 010-1234-5678&nbsp;&nbsp;|&nbsp;&nbsp;Email: icesa@example.com<br>
+      <div class="container container--dense">
+        <ul class="footer__content horizontal-list">
+          <li class="horizontal-item horizontal-item--dense footer__horizontal-item">
+            <a class="link footer__link">이용약관</a>
+          </li>
+          <li class="horizontal-item horizontal-item--dense footer__horizontal-item">
+            <a class="link footer__link">개인정보취급방침</a>
+          </li>
+          <li class="horizontal-item horizontal-item--dense footer__horizontal-item">
+            <a class="link footer__link" href="https://github.com/inha-ice">만든 사람들</a>
+          </li>
+        </ul>
+        <header class="footer__title">인하대학교 정보통신공학과 학생회</header>
+        <div class="footer__content">
+          <ul class="horizontal-list">
+            <li class="horizontal-item horizontal-item--dense footer__horizontal-item">
+              <a class="link footer__link" href="https://place.map.kakao.com/17557585">22212 인천광역시 미추홀구 인하로 100 인하대학교
+                하이테크센터</a> 고층부 지하1층
+            </li>
+            <li class="horizontal-item horizontal-item--dense footer__horizontal-item">
+              Tel: <a class="link footer__link" href="tel:010-1234-5678">010-1234-5678</a>
+            </li>
+            <li class="horizontal-item horizontal-item--dense footer__horizontal-item">
+              Email: <a class="link footer__link" href="mailto:icesa@example.com">icesa@example.com</a>
+            </li>
+          </ul>
           Copyright © 인하대학교 정보통신공학과 학생회, All Rights Reserved.
-        </p>
+        </div>
       </div>
     </footer>
   </main>
