@@ -168,6 +168,7 @@ body {
 }
 
 .hero__title--glow {
+  letter-spacing: 0.25rem;
   font-weight: bold;
   color: #fff;
   text-shadow: 0 0 1rem white;
